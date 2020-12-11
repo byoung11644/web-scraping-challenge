@@ -56,4 +56,6 @@ def scrape():
     ]
     mars_dict['Hemisphere_Pics'] = hemisphere_image_urls
 
+    browser.quit()
+
     return mars_dict
